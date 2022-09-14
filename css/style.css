@@ -1,0 +1,483 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header{
+    margin: 0 auto;
+    background-color: white;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 5px 5px rgba(0,0,0,0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 5px 5px rgba(0,0,0,0);
+    padding: 1%;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 92%;
+    margin: 0 auto;
+
+}
+header figure{
+    display: flex;
+    width: 150px;
+    align-items: center;
+    gap: 10px;
+}
+header figure img{
+    border-radius: 8px;
+    width: 50px;
+    height: 50px;
+}
+header figure h1{
+    font-size: 24px;
+    font-weight: 500;
+}
+header ul{
+    display: flex;
+    gap: 25px;
+}
+header ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.3s ease;
+    text-decoration: none;
+    color: black;
+    border: 2px solid transparent;
+}
+header ul li a:hover{
+    color: rgb(120, 196, 199);
+    border-bottom: 2px solid rgb(120, 196, 199);
+    transition: 0.3s ease;
+}
+
+
+main{
+    max-width: 92%;
+    margin: 0 auto;
+    padding: 3% 0%;
+    display: flex;
+}
+main .produtos ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 95%;
+}
+main .produtos ul li{
+    width: 290px;
+    height: 610px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+main .produtos ul li img{
+    width: 290px;
+    height: 200px;
+    border-radius: 8px 8px 0px 0px;
+    display: flex;
+    margin: 0 auto;
+    transform: translateX(-2px) translateY(-3px);
+}
+main .produtos ul li span{
+    padding: 6px;
+    display: flex;
+    width: 43%;
+    margin: 10px 0px;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 500;
+    border-left: 1px solid white;
+
+}
+main .produtos ul li h3{
+    font-size: 20px;
+    font-weight: 300;
+    padding: 4px;
+}
+main .produtos ul li div{
+    display: flex;
+    margin: 0px 6px;
+    gap: 5px;
+}
+main .produtos ul li div span{
+    background-color: black;
+    font-size: 11px;
+    border-radius: 15px;
+    font-weight: 700;
+}
+main .produtos ul li p{
+    height: 190px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+main .produtos ul li small{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 7px 10px;
+    display: flex;
+    margin-bottom: 15px;
+}
+main .produtos ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+    padding: 5px;
+    margin: 10px 0px;
+    border: 1px solid black;
+    font-size: 14px;
+    margin: 10px;
+    max-width: 33%;
+    transition: 0.4s ease;
+}
+main .produtos ul li a:hover{
+    transition: 0.4s ease;
+    background-color: black;
+    color: white;
+}
+main .produtos ul li button{
+    border: none;
+    padding: 6px 15px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    transition: 0.2s ease;
+}
+main .produtos ul li button:hover{
+    background-color: rgb(84, 174, 177);
+    transition: 0.2s ease;
+}
+
+
+.inglaterra{
+    background-color: darkblue;
+}
+.japao{
+    background-color: rgb(199, 1, 1);
+}
+.franca{
+    background-color: darkblue;
+}
+.italia{
+    background-color: green;
+}
+.suica{
+    background-color: rgb(199, 1, 1);
+}
+.israel{
+    background-color: blue;
+}
+.brasil{
+    background-color: rgb(1, 194, 17);
+}
+.canada{
+    background-color: rgb(199, 1, 1);
+}
+.estados_unidos{
+    background-color: rgb(199, 1, 1);
+}
+
+
+
+
+main .produtos ul #ofertas div{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+main .produtos ul #ofertas div li{
+    border: 2px solid rgb(0, 172, 0);
+    width: 295px;
+    height: 630px;
+}
+main .produtos ul #ofertas h2{
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px 10px;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+main .produtos ul #ofertas div li img{
+    width: 295px;
+}
+main .produtos ul #ofertas div li a{
+    background-color: white;
+}
+main .produtos ul #ofertas div li a:hover{
+    background-color: black;
+}
+
+
+.carrinho{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+.carrinho form{
+    display: flex;
+}
+.carrinho form input{
+    border: none;
+    outline: blue;
+    background-color: rgba(233, 233, 233, 0.4);
+    padding: 5px;
+    width: 250px;
+}
+.carrinho form button{
+    border: none;
+    background-color: rgb(120, 196, 199);
+    cursor: pointer;
+    padding: 5px;
+}
+.carrinho form button img{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+.carrinho #container_quantidade{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.carrinho #container_preco{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.carrinho div h3{
+    background-color: rgb(120, 196, 199);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.carrinho div ul{
+    background-color: ghostwhite;
+    text-align: center;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+}
+.carrinho div ul li{
+    display: flex;
+    margin: 5px 0px;
+    width: 280px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(120, 196, 199);
+    padding: 1px;
+    height: 70px;
+}
+.carrinho div ul li img{
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
+}
+.carrinho div ul li div{
+    height: 60px;
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    margin: 2px 5px;
+}
+.carrinho div ul li div h3{
+    width: 150px;
+    height: 15px;
+    font-size: 13px;
+    font-weight: 700;
+    color: black;
+    background-color: transparent;
+    margin: 2px 3px;
+    padding: 0px;
+    text-align: start;
+}
+.carrinho div ul li div span{
+    font-size: 12px;
+    width: 195px;
+    text-align: start;
+    display: flex;
+    margin-left: 5px;
+}
+.carrinho div ul li div small{
+    font-size: 12px;
+    font-weight: 900;
+    margin: 8px 0px;
+    color: rgb(120, 196, 199);
+}
+.carrinho div ul li div button img{
+    width: 18px;
+    height: 18px;
+    padding: 2px;
+}
+.carrinho div ul li div button{
+    width: 18px;
+    height: 18px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: transparent;
+}
+.carrinho div ul li div span{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    align-items: center;
+}
+.carrinho div ul li div button:hover{
+    background-color: red;
+    border-radius: 4px;
+}
+.carrinho #btn_finalizar{
+    border: none;
+    padding: 10px;
+    background-color: rgb(120, 196, 199);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.carrinho #btn_finalizar:hover{
+    background-color: rgb(76, 147, 150);
+    transition: 0.3s ease;
+}
+
+
+
+.secao_email{
+    background-color: rgb(84, 174, 177);
+    padding: 20px;
+    margin: 3% 0%;
+
+}
+.secao_email div{
+    margin: 0 auto;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.secao_email div h3{
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+}
+.secao_email div div{
+    text-align: left;
+}
+.secao_email div label{
+    font-size: 18px;
+    font-weight: 400;
+}
+.secao_email div form input{
+    outline: none;
+    border: none;
+    padding: 10px;
+    width: 350px;
+    margin: 35px 0px;
+}
+.secao_email div div textarea{
+    margin: 15px 0px;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+.secao_email div form button{
+    border: none;
+    width: 400px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 3%;
+    transition: 0.3s ease;
+}
+.secao_email div form button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s ease;
+}
+
+#txtVazio{
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+#txtVazio img{
+    width: 70px;
+    height: 70px;
+}
+
+footer{
+    background-color: black;
+    padding: 15px;
+    align-items: center;
+}
+footer #rodape_container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 92%;
+    margin: 0 auto;
+}
+footer #rodape_container div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+footer div span{
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 30px;
+}
+footer img{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 4px;
+}
+footer nav ul{
+    display: flex;
+    gap: 20px;
+}
+footer nav ul li img{
+    cursor: pointer;
+}
+
+
+
+
+
+

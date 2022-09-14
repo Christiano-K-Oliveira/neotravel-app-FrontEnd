@@ -1,0 +1,125 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header{
+    margin: 0 auto;
+    background-color: white;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 5px 5px rgba(0,0,0,0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 5px 5px rgba(0,0,0,0);
+    padding: 1%;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 92%;
+    margin: 0 auto;
+
+}
+header figure{
+    display: flex;
+    width: 150px;
+    align-items: center;
+    gap: 10px;
+}
+header figure img{
+    border-radius: 8px;
+    width: 50px;
+    height: 50px;
+}
+header figure h1{
+    font-size: 24px;
+    font-weight: 500;
+}
+header ul{
+    display: flex;
+    gap: 25px;
+}
+header ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.3s ease;
+    text-decoration: none;
+    color: black;
+    border: 2px solid transparent;
+}
+header ul li a:hover{
+    color: rgb(120, 196, 199);
+    border-bottom: 2px solid rgb(120, 196, 199);
+    transition: 0.3s ease;
+}
+
+main{
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+main ul{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1%;
+}
+
+main #tittle{
+    margin-top: 3%;
+    display: flex;
+}
+main #tittle h1{
+    font-size: 32px;
+    font-weight: 100;
+    border-bottom: 3px solid rgb(120, 196, 199);
+}
+main ul li{
+    display: flex;
+    margin: 10px 0px;
+    border: 1px solid black;
+    padding: 3px 4px;
+    align-items: center;
+}
+main ul div li{
+    display: flex;
+    flex-direction: column;
+}
+main ul div li img{
+    height: 200px;
+    width: 500px;
+}
+main ul li img{
+    width: 690px;
+    height: 412px;
+}
+main p{
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 400;
+    margin-bottom: 1%;
+
+}
+main a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background-color: #000000;
+    padding: 6px;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    font-weight: 500;
+    font-size: 18px;
+    transition: 0.3s ease;
+
+}
+main a:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    transition: 0.3s ease;
+}
